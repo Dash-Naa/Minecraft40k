@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "warhammer_mod:blocks/ceremite_brick",
+    "up": "warhammer_mod:blocks/ceremite_brick",
+    "north": "warhammer_mod:blocks/ceremite_brick",
+    "east": "warhammer_mod:blocks/ceremite_brick",
+    "south": "warhammer_mod:blocks/ceremite_brick",
+    "west": "warhammer_mod:blocks/ceremite_brick",
+    "particle": "warhammer_mod:blocks/ceremite_brick"
+  },
+  "render_type": "solid"
+}

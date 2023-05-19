@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "warhammer_mod:ceramite_brick"
+    },
+    "4": {
+      "item": "warhammer_mod:ceramite_brick"
+    },
+    "5": {
+      "item": "warhammer_mod:ceramite_brick"
+    },
+    "6": {
+      "item": "warhammer_mod:ceramite_brick"
+    },
+    "7": {
+      "item": "warhammer_mod:ceramite_brick"
+    },
+    "8": {
+      "item": "warhammer_mod:ceramite_brick"
+    }
+  },
+  "result": {
+    "item": "warhammer_mod:ceramite_brick_stairs",
+    "count": 6
+  }
+}

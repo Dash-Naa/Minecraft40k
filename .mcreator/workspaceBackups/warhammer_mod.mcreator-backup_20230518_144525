@@ -1,0 +1,260 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ceramite",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite.json",
+          "src/main/java/net/mcreator/warhammermod/item/CeramiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FlakHelmetRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlakArmourRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_armour_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_armour_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlakBootsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlakPantsArmour",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_pants_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_pants_armour.json"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CeremiteBrickRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceremite_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceremite_brick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteBrickSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteBrickSlabBlock.java",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_slab_full.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_slab.json",
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_brick_slab.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_brick_slab.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteBrick",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_brick.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_brick.json",
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteBrickBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteBrickStairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_brick_stairs.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_stairs_outer.json",
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_brick_stairs.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_stairs_inner.json",
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteBrickStairsBlock.java",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteWall",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_wall.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall_inventory.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall_post.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_wall.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall_side_tall.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall.json",
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteWallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_brick_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_brick_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CeramiteWallRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_wall_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlakArmour",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_chestplate.json",
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_leggings.json",
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_boots.json",
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_helmet.json",
+          "src/main/java/net/mcreator/warhammermod/item/FlakArmourItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.warhammer_mod.flak_armour_helmet": "Flak Helmet",
+      "item.warhammer_mod.ceramite": "Ceramite",
+      "block.warhammer_mod.ceramite_brick_slab": "Ceramite Brick Slab",
+      "block.warhammer_mod.ceramite_brick": "Ceremite Brick",
+      "block.warhammer_mod.ceramite_wall": "Ceramite Wall",
+      "item.warhammer_mod.flak_armour_chestplate": "Flak Vest",
+      "block.warhammer_mod.ceramite_brick_stairs": "Ceramite Brick Stairs",
+      "item.warhammer_mod.flak_armour_leggings": "Flak Pants",
+      "item.warhammer_mod.flak_armour_boots": "Flak Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "warhammer_mod",
+    "modName": "40k mod",
+    "version": "1.0.0",
+    "author": "tongu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.warhammermod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

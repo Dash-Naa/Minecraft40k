@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "1": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "2": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "3": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "5": {
+      "item": "warhammer_mod:ceramite"
+    }
+  },
+  "result": {
+    "item": "warhammer_mod:flak_jacket_helmet",
+    "count": 1
+  }
+}

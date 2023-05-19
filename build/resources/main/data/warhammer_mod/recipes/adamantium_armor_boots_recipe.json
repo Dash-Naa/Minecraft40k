@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "warhammer_mod:adamantium_ingot"
+    },
+    "2": {
+      "item": "warhammer_mod:adamantium_ingot"
+    },
+    "3": {
+      "item": "warhammer_mod:adamantium_ingot"
+    },
+    "5": {
+      "item": "warhammer_mod:adamantium_ingot"
+    }
+  },
+  "result": {
+    "item": "warhammer_mod:adamantium_armor_boots",
+    "count": 1
+  }
+}

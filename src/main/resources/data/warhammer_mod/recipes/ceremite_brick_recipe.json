@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "1": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "2": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "3": {
+      "item": "warhammer_mod:ceramite"
+    }
+  },
+  "result": {
+    "item": "warhammer_mod:ceremite_brick",
+    "count": 4
+  }
+}

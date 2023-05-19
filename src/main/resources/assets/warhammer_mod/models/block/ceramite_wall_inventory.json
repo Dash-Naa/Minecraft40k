@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "warhammer_mod:blocks/ceremite_brick",
+    "particle": "warhammer_mod:blocks/ceremite_brick"
+  },
+  "render_type": "solid"
+}

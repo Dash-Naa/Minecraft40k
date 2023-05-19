@@ -1,0 +1,660 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ceramite",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite.json",
+          "src/main/java/net/mcreator/warhammermod/item/CeramiteItem.java"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "FlakHelmetRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Flak Armour"
+    },
+    {
+      "name": "FlakArmourRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_armour_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_armour_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Flak Armour"
+    },
+    {
+      "name": "FlakBootsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_boots_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Flak Armour"
+    },
+    {
+      "name": "FlakPantsArmour",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_pants_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/flak_pants_armour.json"
+        ]
+      },
+      "path": "~/Armour/Flak Armour"
+    },
+    {
+      "name": "CeramiteRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeremiteBrickRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceremite_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceremite_brick_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteBrickSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteBrickSlabBlock.java",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_slab_full.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_slab.json",
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_brick_slab.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_brick_slab.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteBrick",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_brick.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_brick.json",
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteBrickBlock.java"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteBrickStairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_brick_stairs.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_stairs_outer.json",
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_brick_stairs.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_stairs_inner.json",
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteBrickStairsBlock.java",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_brick_stairs.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteWall",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/ceramite_wall.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall_inventory.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall_post.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/ceramite_wall.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall_side_tall.json",
+          "src/main/resources/assets/warhammer_mod/models/block/ceramite_wall.json",
+          "src/main/java/net/mcreator/warhammermod/block/CeramiteWallBlock.java"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_brick_slab_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_brick_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_brick_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "CeramiteWallRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceramite_wall_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/ceramite_wall_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/LG-Ceramite"
+    },
+    {
+      "name": "FlakArmour",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flak_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_chestplate.json",
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_leggings.json",
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_boots.json",
+          "src/main/resources/assets/warhammer_mod/models/item/flak_armour_helmet.json",
+          "src/main/java/net/mcreator/warhammermod/item/FlakArmourItem.java"
+        ]
+      },
+      "path": "~/Armour/Flak Armour"
+    },
+    {
+      "name": "AdamantiumIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumIngotItem.java",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_ingot.json"
+        ]
+      },
+      "path": "~/Materials/Adamantium"
+    },
+    {
+      "name": "AdamantiumOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/world/features/ores/AdamantiumOreFeature.java",
+          "src/main/resources/data/warhammer_mod/forge/biome_modifier/adamantium_ore_biome_modifier.json",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_ore.json",
+          "src/main/resources/assets/warhammer_mod/blockstates/adamantium_ore.json",
+          "src/main/resources/assets/warhammer_mod/models/block/adamantium_ore.json",
+          "src/main/java/net/mcreator/warhammermod/block/AdamantiumOreBlock.java"
+        ]
+      },
+      "path": "~/Materials/Adamantium"
+    },
+    {
+      "name": "AdamantiumBlock",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/blockstates/adamantium_block.json",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_block.json",
+          "src/main/resources/assets/warhammer_mod/models/block/adamantium_block.json",
+          "src/main/java/net/mcreator/warhammermod/block/AdamantiumBlockBlock.java"
+        ]
+      },
+      "path": "~/Materials/Adamantium"
+    },
+    {
+      "name": "AdamantiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Adamantium"
+    },
+    {
+      "name": "AdamantiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Materials/Adamantium"
+    },
+    {
+      "name": "AdamantiumOreSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Materials/Adamantium"
+    },
+    {
+      "name": "AdamantiumPickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_pickaxe.json",
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumAxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_axe.json",
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumAxeItem.java"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumSword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumSwordItem.java",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_sword.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumShovelItem.java",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_shovel.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumHoe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_hoe.json",
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumHoeItem.java"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_axe_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_sword_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Tools/Adamantium"
+    },
+    {
+      "name": "AdamantiumArmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/item/AdamantiumArmorItem.java",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_armor_boots.json",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_armor_chestplate.json",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_armor_leggings.json",
+          "src/main/resources/assets/warhammer_mod/models/item/adamantium_armor_helmet.json"
+        ]
+      },
+      "path": "~/Armour/Adamantium Armour"
+    },
+    {
+      "name": "AdamantiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Adamantium Armour"
+    },
+    {
+      "name": "AdamantiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_armor_body_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Adamantium Armour"
+    },
+    {
+      "name": "AdamantiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Adamantium Armour"
+    },
+    {
+      "name": "AdamantiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adamantium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/warhammer_mod/recipes/adamantium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Armour/Adamantium Armour"
+    },
+    {
+      "name": "HighGradeCeramite",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_grade_ceramite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/warhammermod/item/HighGradeCeramiteItem.java",
+          "src/main/resources/assets/warhammer_mod/models/item/high_grade_ceramite.json"
+        ]
+      },
+      "path": "~/Materials/Ceramite/HG Ceramite"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.warhammer_mod.adamantium_armor_helmet": "Adamantium Helmet",
+      "item.warhammer_mod.flak_armour_helmet": "Flak Helmet",
+      "item.warhammer_mod.ceramite": "Ceramite",
+      "block.warhammer_mod.ceramite_brick_slab": "Ceramite Brick Slab",
+      "item.warhammer_mod.adamantium_pickaxe": "Adamantium Pickaxe",
+      "block.warhammer_mod.ceramite_wall": "Ceramite Wall",
+      "item.warhammer_mod.flak_armour_chestplate": "Flak Vest",
+      "item.warhammer_mod.adamantium_axe": "Adamantium Axe",
+      "block.warhammer_mod.ceramite_brick_stairs": "Ceramite Brick Stairs",
+      "item.warhammer_mod.adamantium_armor_leggings": "Adamantium Leggings",
+      "item.warhammer_mod.flak_armour_leggings": "Flak Pants",
+      "item.warhammer_mod.adamantium_shovel": "Adamantium Shovel",
+      "item.warhammer_mod.adamantium_ingot": "Adamantium",
+      "block.warhammer_mod.ceramite_brick": "Ceremite Brick",
+      "block.warhammer_mod.adamantium_block": "Block of Adamantium",
+      "item.warhammer_mod.adamantium_sword": "Adamantium Sword",
+      "item.warhammer_mod.adamantium_armor_boots": "Adamantium Boots",
+      "block.warhammer_mod.adamantium_ore": "Adamantium Ore",
+      "item.warhammer_mod.adamantium_hoe": "Adamantium Hoe",
+      "item.warhammer_mod.adamantium_armor_chestplate": "Adamantium Chestplate",
+      "item.warhammer_mod.flak_armour_boots": "Flak Boots",
+      "item.warhammer_mod.high_grade_ceramite": "High Grade Ceramite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Materials",
+        "children": [
+          {
+            "name": "Ceramite",
+            "children": [
+              {
+                "name": "LG-Ceramite",
+                "children": []
+              },
+              {
+                "name": "HG Ceramite",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Adamantium",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armour",
+        "children": [
+          {
+            "name": "Flak Armour",
+            "children": []
+          },
+          {
+            "name": "Adamantium Armour",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Adamantium",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "warhammer_mod",
+    "modName": "40k mod",
+    "version": "1.0.0",
+    "author": "tongu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.warhammermod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

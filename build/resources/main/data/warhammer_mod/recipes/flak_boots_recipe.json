@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "2": {
+      "item": "warhammer_mod:ceramite"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "warhammer_mod:flak_jacket_boots",
+    "count": 1
+  }
+}

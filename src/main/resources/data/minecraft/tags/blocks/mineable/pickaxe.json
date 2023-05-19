@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "warhammer_mod:ceramite_brick_slab",
+    "warhammer_mod:ceramite_brick",
+    "warhammer_mod:ceramite_brick_stairs",
+    "warhammer_mod:ceramite_wall",
+    "warhammer_mod:adamantium_ore",
+    "warhammer_mod:adamantium_block"
+  ]
+}

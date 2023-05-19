@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "warhammer_mod:block/ceramite_brick_slab"
+    },
+    "type=top": {
+      "model": "warhammer_mod:block/ceramite_brick_slab_top"
+    },
+    "type=double": {
+      "model": "warhammer_mod:block/ceramite_brick_slab_full"
+    }
+  }
+}

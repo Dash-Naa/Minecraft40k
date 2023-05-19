@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:AdamantiumIngot"
+      },
+      {
+        "value": "CUSTOM:AdamantiumIngot"
+      },
+      {
+        "value": "CUSTOM:AdamantiumIngot"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      },
+      {
+        "value": "CUSTOM:Ceramite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HighGradeCeramite"
+    },
+    "name": "high_grade_ceramite_recipe",
+    "namespace": "mod"
+  }
+}

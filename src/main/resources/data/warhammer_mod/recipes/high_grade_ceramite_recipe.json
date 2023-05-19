@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "warhammer_mod:ceramite"
+    },
+    {
+      "item": "warhammer_mod:ceramite"
+    },
+    {
+      "item": "warhammer_mod:ceramite"
+    },
+    {
+      "item": "warhammer_mod:adamantium_ingot"
+    },
+    {
+      "item": "warhammer_mod:adamantium_ingot"
+    },
+    {
+      "item": "warhammer_mod:adamantium_ingot"
+    },
+    {
+      "item": "warhammer_mod:ceramite"
+    },
+    {
+      "item": "warhammer_mod:ceramite"
+    },
+    {
+      "item": "warhammer_mod:ceramite"
+    }
+  ],
+  "result": {
+    "item": "warhammer_mod:high_grade_ceramite",
+    "count": 6
+  }
+}

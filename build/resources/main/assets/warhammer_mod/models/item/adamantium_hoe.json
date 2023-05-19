@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "warhammer_mod:items/adamantium_hoe"
+  }
+}

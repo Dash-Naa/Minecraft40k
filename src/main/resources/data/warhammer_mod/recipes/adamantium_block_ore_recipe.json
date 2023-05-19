@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "warhammer_mod:adamantium_block"
+    }
+  ],
+  "result": {
+    "item": "warhammer_mod:adamantium_ingot",
+    "count": 9
+  }
+}
