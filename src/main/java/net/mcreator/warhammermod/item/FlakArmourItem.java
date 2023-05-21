@@ -2,6 +2,9 @@
 package net.mcreator.warhammermod.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
@@ -9,12 +12,21 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.warhammermod.init.WarhammerModModItems;
+import net.mcreator.warhammermod.client.model.ModelFlakArmourConverted;
+
+import java.util.function.Consumer;
+import java.util.Map;
+import java.util.Collections;
 
 public abstract class FlakArmourItem extends ArmorItem {
 	public FlakArmourItem(EquipmentSlot slot, Item.Properties properties) {
@@ -67,8 +79,26 @@ public abstract class FlakArmourItem extends ArmorItem {
 		}
 
 		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("head", new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).Helmet, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "warhammer_mod:textures/models/armor/flakarmour_layer_1.png";
+			return "warhammer_mod:textures/entities/fatexture.png";
 		}
 	}
 
@@ -78,8 +108,26 @@ public abstract class FlakArmourItem extends ArmorItem {
 		}
 
 		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).Torso,
+							"left_arm", new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).LArm, "right_arm",
+							new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).RArm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "warhammer_mod:textures/models/armor/flakarmour_layer_1.png";
+			return "warhammer_mod:textures/entities/fatexture.png";
 		}
 	}
 
@@ -89,8 +137,27 @@ public abstract class FlakArmourItem extends ArmorItem {
 		}
 
 		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("left_leg", new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).LLeg, "right_leg",
+									new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).RLeg, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "warhammer_mod:textures/models/armor/flakarmour_layer_2.png";
+			return "warhammer_mod:textures/entities/fatexture.png";
 		}
 	}
 
@@ -100,8 +167,27 @@ public abstract class FlakArmourItem extends ArmorItem {
 		}
 
 		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("left_leg", new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).LBoot, "right_leg",
+									new ModelFlakArmourConverted(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFlakArmourConverted.LAYER_LOCATION)).RBoot, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
+		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "warhammer_mod:textures/models/armor/flakarmour_layer_1.png";
+			return "warhammer_mod:textures/entities/fatexture.png";
 		}
 	}
 }
